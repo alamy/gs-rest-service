@@ -1,4 +1,4 @@
-package java.com.servico;
+package com.example.servico;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.com.daos.PessoaRepository;
-import java.com.entidades.Pessoa;
+import com.example.daos.PessoaRepository;
+import com.example.entidades.Pessoa;
 
 @Service
 public class PessoaService {
